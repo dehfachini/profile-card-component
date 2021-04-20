@@ -1,7 +1,38 @@
 body {
-    background-color:hsl(185, 75%, 39%);
+    background-color: hsl(185, 75%, 39%);
     font-size: 18px;
     font-family: 'Kumbh Sans', sans-serif;
     margin: 50px auto 50px auto;
     text-align: center;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 30%;
+    
+}
+
+.profile {
+    text-align: center;
+    margin: 50px auto 50px auto;
+    background-color: #fff;
+    width: 50%;
+    height: 60vh;
+    padding: 5%;
+    border-radius: 3%;
+}
+
+.metrics {
+    display: inline-block;
+    padding: 3%;
+}
+
+.metric-number {
+font-weight: 700;
+
+}
+
+.metric-text {
+    font-size: 0.5rem;
+
 }
