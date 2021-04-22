@@ -6,33 +6,73 @@ body {
     text-align: center;
 }
 
+h1 {
+    color: hsl(229, 23%, 23%);
+    font-size: 30px;
+}
+
+h2 {
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+    font-size: 25px;
+}
+
+hr {
+    border-style: solid;
+    opacity: 0.4;
+    border-width: 0.3px;
+    border-color:hsl(227, 10%, 46%);
+    width: 90%;
+}
+
 .profile-photo {
     border-radius: 50%;
     width: 30%;
-    
+    margin-top: 50px;
+}
+
+.profile-information {
+   
 }
 
 .profile {
     text-align: center;
     margin: 50px auto 50px auto;
     background-color: #fff;
-    width: 50%;
-    height: 60vh;
-    padding: 5%;
+    width: 350px;
+    height: 400px;
     border-radius: 3%;
+    padding: auto;
+}
+.metrics-row {
+    /* padding: 7%; */
+  
 }
 
 .metrics {
     display: inline-block;
-    padding: 3%;
+    padding: 6%;
 }
 
 .metric-number {
-font-weight: 700;
-
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+    font-size: 25px;
+    padding-bottom: 30%;
+    padding-top: 10%;
+ 
+    
 }
 
 .metric-text {
     font-size: 0.5rem;
-
+    color: hsl(227, 10%, 46%);
+    font-size: 15px;
 }
+
+.age {
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+    font-size: 25px;
+}
+
