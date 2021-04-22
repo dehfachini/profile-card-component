@@ -9,8 +9,6 @@ body {
 h1 {
     color: hsl(229, 23%, 23%);
     font-size: 20px;
-   
-
 }
 
 h2 {
@@ -24,18 +22,34 @@ hr {
     border-style: solid;
     opacity: 0.2;
     border-width: 0.1px;
-    border-color:hsl(227, 10%, 46%);
+    border-color: hsl(227, 10%, 46%);
     width: 90%;
-
 }
+
+.pattern-top {
+    position: fixed;
+    left: -300px;
+    top: -600px;
+    z-index: -1;
+}
+
+.pattern-bottom {
+    position: fixed;
+    left: 600px;
+    top: 200px;
+    z-index: -1;
+}
+
 .pattern-card {
-border-radius: 15px 15px 0 0;
-
+    background-image: url('../images/bg-pattern-card.svg');
+    border-radius: 15px 15px 0 0;
+    width: 350px;
+    height: 140px;
 }
+
 .profile-photo {
     border-radius: 50%;
     width: 32%;
-    
     position: relative;
     bottom: 60px;
     /* padding: 6px;
@@ -47,7 +61,6 @@ border-radius: 15px 15px 0 0;
 
 .profile-information {
     margin-top: -45px;
-   
 }
 
 .profile {
@@ -59,10 +72,9 @@ border-radius: 15px 15px 0 0;
     border-radius: 15px;
     padding: auto;
 }
+
 .metrics-row {
     /* padding: 7%; */
-
-  
 }
 
 .metrics {
@@ -76,15 +88,12 @@ border-radius: 15px 15px 0 0;
     font-size: 20px;
     padding-bottom: 20%;
     padding-top: 2%;
- 
-    
 }
 
 .metric-text {
     font-size: 0.5rem;
     color: hsl(227, 10%, 46%);
     font-size: 10px;
-
 }
 
 .age {
@@ -93,4 +102,3 @@ border-radius: 15px 15px 0 0;
     font-size: 17px;
     padding-left: 6px
 }
-
